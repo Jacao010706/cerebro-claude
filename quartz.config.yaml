@@ -146,6 +146,7 @@ plugins:
           projetos/simanplay-iptv: "#2ecc71"
           projetos/simanplay-iptv-admin-panel: "#3498db"
           projetos/simanplay-iptv-backend: "#9b59b6"
+          projetos/simanplay-iptv-whatsapp: "#1abc9c"
         tagColors:
           sgm: "#e74c3c"
           simanplay: "#2ecc71"
@@ -157,6 +158,7 @@ plugins:
           projetos/simanplay-iptv: "#2ecc71"
           projetos/simanplay-iptv-admin-panel: "#3498db"
           projetos/simanplay-iptv-backend: "#9b59b6"
+          projetos/simanplay-iptv-whatsapp: "#1abc9c"
         tagColors:
           sgm: "#e74c3c"
           simanplay: "#2ecc71"
