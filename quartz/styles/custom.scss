@@ -1,3 +1,11 @@
-@use "./variables.scss" as *;
-
-// put your custom CSS here!
+// Cores dos nós do grafo por nome de arquivo
+.graph-outer {
+  .graph-node {
+    &[data-id*="sgm-ferroviario"] circle { fill: #e74c3c !important; }
+    &[data-id*="sgm-geradores-trensurb"] circle { fill: #e67e22 !important; }
+    &[data-id*="sgm-geradores"] circle { fill: #f1c40f !important; }
+    &[data-id*="simanplay-iptv-backend"] circle { fill: #9b59b6 !important; }
+    &[data-id*="simanplay-iptv-admin"] circle { fill: #3498db !important; }
+    &[data-id*="simanplay-iptv"] circle { fill: #2ecc71 !important; }
+  }
+}
