@@ -1,9 +1,11 @@
 ---
+tags: [sgm]
 cor: "#e67e22"
 emoji: ??
 tipo: projeto
 status: ativo
 ---
+tags: [sgm]
 
 # ?? SGM Geradores Trensurb
 

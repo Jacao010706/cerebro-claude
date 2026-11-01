@@ -1,9 +1,11 @@
 ---
+tags: [simanplay]
 cor: "#9b59b6"
 emoji: ??
 tipo: projeto
 status: ativo
 ---
+tags: [simanplay]
 
 # ?? SimanPlay Backend
 

@@ -1,9 +1,11 @@
 ---
+tags: [sgm]
 cor: "#f1c40f"
 emoji: ??
 tipo: projeto
 status: ativo
 ---
+tags: [sgm]
 
 # ?? SGM Geradores
 

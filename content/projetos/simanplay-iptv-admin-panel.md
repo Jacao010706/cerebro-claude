@@ -1,9 +1,11 @@
 ---
+tags: [simanplay]
 cor: "#3498db"
 emoji: ??
 tipo: projeto
 status: ativo
 ---
+tags: [simanplay]
 
 # ?? SimanPlay Admin Panel
 

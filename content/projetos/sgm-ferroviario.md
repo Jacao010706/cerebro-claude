@@ -1,9 +1,11 @@
 ---
+tags: [sgm]
 cor: "#e74c3c"
 emoji: 🔴
 tipo: projeto
 status: ativo
 ---
+tags: [sgm]
 
 # 🔴 SGM Ferroviário
 
