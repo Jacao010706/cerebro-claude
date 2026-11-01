@@ -1,3 +1,9 @@
+---
+tags: [sgm]
+tipo: projeto
+status: ativo
+---
+
 # SGM Trensurb
 
 **O projeto principal.** Sistema de gestão de manutenção dos grupos

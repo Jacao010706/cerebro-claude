@@ -135,8 +135,31 @@ plugins:
     layout:
       position: left
       priority: 50
-  - source: "@quartz-community/graph"
+  - source: "./plugins/graph"
     enabled: true
+    options:
+      localGraph:
+        nodeColors:
+          projetos/sgm-ferroviario: "#e74c3c"
+          projetos/sgm-geradores-trensurb: "#e67e22"
+          projetos/sgm-geradores: "#f1c40f"
+          projetos/simanplay-iptv: "#2ecc71"
+          projetos/simanplay-iptv-admin-panel: "#3498db"
+          projetos/simanplay-iptv-backend: "#9b59b6"
+        tagColors:
+          sgm: "#e74c3c"
+          simanplay: "#2ecc71"
+      globalGraph:
+        nodeColors:
+          projetos/sgm-ferroviario: "#e74c3c"
+          projetos/sgm-geradores-trensurb: "#e67e22"
+          projetos/sgm-geradores: "#f1c40f"
+          projetos/simanplay-iptv: "#2ecc71"
+          projetos/simanplay-iptv-admin-panel: "#3498db"
+          projetos/simanplay-iptv-backend: "#9b59b6"
+        tagColors:
+          sgm: "#e74c3c"
+          simanplay: "#2ecc71"
     layout:
       position: right
       priority: 10
@@ -282,21 +305,3 @@ layout:
         right: []
     canvas: {}
     bases: {}
-
-graph:
-  enableRadial: false
-  localDepth: 1
-  globalDepth: 6
-  removeTags: []
-  showTags: true
-  repelForce: 0.5
-  centerForce: 0.3
-  linkDistance: 30
-  fontSize: 0.6
-  opacityScale: 1
-  scale: 1.1
-  tagColors:
-    sgm: "#e74c3c"
-    simanplay: "#2ecc71"
-    trensurb: "#e67e22"
-
