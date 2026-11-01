@@ -300,19 +300,3 @@ graph:
     simanplay: "#2ecc71"
     trensurb: "#e67e22"
 
-graph:
-  enableRadial: false
-  localDepth: 1
-  globalDepth: 6
-  removeTags: []
-  showTags: true
-  repelForce: 0.5
-  centerForce: 0.3
-  linkDistance: 30
-  fontSize: 0.6
-  opacityScale: 1
-  scale: 1.1
-  tagColors:
-    sgm: "#e74c3c"
-    simanplay: "#2ecc71"
-    trensurb: "#e67e22"
