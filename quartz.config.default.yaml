@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: quartz.jzhao.xyz
+  baseUrl: jacao010706.github.io/cerebro-claude
   ignorePatterns:
     - private
     - templates
