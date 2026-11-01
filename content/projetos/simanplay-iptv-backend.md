@@ -1,13 +1,12 @@
 ---
 tags: [simanplay]
 cor: "#9b59b6"
-emoji: ??
+emoji: ðŸŸ£
 tipo: projeto
 status: ativo
 ---
-tags: [simanplay]
 
-# ?? SimanPlay Backend
+# ðŸŸ£ SimanPlay Backend
 
 ## Stack
 - Backend: Python (FastAPI)
@@ -15,11 +14,11 @@ tags: [simanplay]
 - Deploy: Railway
 
 ## Conecta com
-- [[simanplay-iptv]] — serve o app
-- [[simanplay-iptv-admin-panel]] — serve o painel
+- [[simanplay-iptv]] â€” serve o app
+- [[simanplay-iptv-admin-panel]] â€” serve o painel
 
-## Repositório
+## RepositÃ³rio
 \/root/simanplay-iptv-backend\
 
-## Componentes compartilháveis
+## Componentes compartilhÃ¡veis
 - [ ] nenhum aprovado ainda

@@ -5,7 +5,6 @@ emoji: 🔴
 tipo: projeto
 status: ativo
 ---
-tags: [sgm]
 
 # 🔴 SGM Ferroviário
 

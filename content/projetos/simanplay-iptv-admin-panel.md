@@ -1,13 +1,12 @@
 ---
 tags: [simanplay]
 cor: "#3498db"
-emoji: ??
+emoji: ðŸ”µ
 tipo: projeto
 status: ativo
 ---
-tags: [simanplay]
 
-# ?? SimanPlay Admin Panel
+# ðŸ”µ SimanPlay Admin Panel
 
 ## Stack
 - Frontend: Next.js + Electron
@@ -15,11 +14,11 @@ tags: [simanplay]
 - Deploy: Vercel
 
 ## Conecta com
-- [[simanplay-iptv]] — app principal
-- [[simanplay-iptv-backend]] — API compartilhada
+- [[simanplay-iptv]] â€” app principal
+- [[simanplay-iptv-backend]] â€” API compartilhada
 
-## Repositório
+## RepositÃ³rio
 \/root/simanplay-iptv-admin-panel\
 
-## Componentes compartilháveis
+## Componentes compartilhÃ¡veis
 - [ ] nenhum aprovado ainda

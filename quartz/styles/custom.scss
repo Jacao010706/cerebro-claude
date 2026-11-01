@@ -1,8 +1,3 @@
-.graph-outer {
-  svg g[data-id*="sgm-ferroviario"] circle { fill: #e74c3c !important; }
-  svg g[data-id*="sgm-geradores-trensurb"] circle { fill: #e67e22 !important; }
-  svg g[data-id*="sgm-geradores"] circle { fill: #f1c40f !important; }
-  svg g[data-id*="simanplay-iptv-backend"] circle { fill: #9b59b6 !important; }
-  svg g[data-id*="simanplay-iptv-admin"] circle { fill: #3498db !important; }
-  svg g[data-id*="simanplay-iptv"] circle { fill: #2ecc71 !important; }
-}
+@use "./variables.scss" as *;
+
+// put your custom CSS here!

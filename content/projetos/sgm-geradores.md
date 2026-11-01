@@ -1,13 +1,12 @@
 ---
 tags: [sgm]
 cor: "#f1c40f"
-emoji: ??
+emoji: ğŸŸ¡
 tipo: projeto
 status: ativo
 ---
-tags: [sgm]
 
-# ?? SGM Geradores
+# ğŸŸ¡ SGM Geradores
 
 ## Stack
 - Frontend: Next.js
@@ -15,11 +14,11 @@ tags: [sgm]
 - Deploy: VPS Hetzner
 
 ## Conecta com
-- [[sgm-geradores-trensurb]] — versão Trensurb do mesmo sistema
-- [[sgm-ferroviario]] — infraestrutura compartilhada
+- [[sgm-geradores-trensurb]] â€” versÃ£o Trensurb do mesmo sistema
+- [[sgm-ferroviario]] â€” infraestrutura compartilhada
 
-## Repositório
+## RepositÃ³rio
 \/root/sgm-geradores\
 
-## Componentes compartilháveis
+## Componentes compartilhÃ¡veis
 - [ ] nenhum aprovado ainda
