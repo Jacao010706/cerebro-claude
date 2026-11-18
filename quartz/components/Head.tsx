@@ -43,6 +43,13 @@ export default (() => {
       <head>
         <title>{title}</title>
         <meta charSet="utf-8" />
+        {/* Tema escuro como padrão; o botão sol/lua continua trocando e lembrando a escolha. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              'try{if(!localStorage.getItem("theme")){localStorage.setItem("theme","dark")}document.documentElement.setAttribute("saved-theme",localStorage.getItem("theme"))}catch(e){document.documentElement.setAttribute("saved-theme","dark")}',
+          }}
+        />
         {coreStylesheet && <link rel="preload" href={coreStylesheet} as="style" />}
         {coreScript && coreScript.contentType === "external" && (
           <link rel="preload" href={coreScript.src} as="script" />
