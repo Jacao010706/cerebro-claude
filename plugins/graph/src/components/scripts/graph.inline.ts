@@ -271,6 +271,28 @@ import {
         simulation.force("radial", d3.forceRadial(radius).strength(0.2));
       }
 
+      // Animação contínua: as bolinhas "flutuam" devagar enquanto o mouse está fora
+      // do gráfico, e param quando o mouse entra (para dar para ler e clicar).
+      var animarGrafo = config.animate !== false;
+      var animateStrength = config.animateStrength || 0.06;
+      var restingAlpha = animarGrafo ? 0.03 : 0;
+      var paused = false;
+      if (animarGrafo) {
+        for (var ni = 0; ni < nodes.length; ni++) {
+          nodes[ni].__phase = Math.random() * Math.PI * 2;
+          nodes[ni].__speed = 0.4 + Math.random() * 0.6;
+        }
+        simulation.force("flutuar", function () {
+          var tempo = Date.now() / 1000;
+          for (var fi = 0; fi < nodes.length; fi++) {
+            var nd = nodes[fi];
+            nd.vx += Math.cos(tempo * nd.__speed + nd.__phase) * animateStrength;
+            nd.vy += Math.sin(tempo * nd.__speed * 0.8 + nd.__phase) * animateStrength;
+          }
+        });
+        simulation.alphaTarget(restingAlpha);
+      }
+
       var linkContainer = new PIXI.Container();
       var nodesContainer = new PIXI.Container();
       var labelsContainer = new PIXI.Container();
@@ -527,7 +549,8 @@ import {
         };
 
         var dragEnded = function (event) {
-          if (!event.active) simulation.alphaTarget(0);
+          if (!event.active) simulation.alphaTarget(restingAlpha);
+          if (paused) simulation.stop();
           event.subject.fx = null;
           event.subject.fy = null;
           dragging = false;
@@ -632,6 +655,19 @@ import {
 
       simulation.on("tick", function () {});
       simulation.restart();
+
+      if (animarGrafo) {
+        var pauseAnimation = function () {
+          paused = true;
+          if (!dragging) simulation.stop();
+        };
+        var resumeAnimation = function () {
+          paused = false;
+          simulation.alphaTarget(restingAlpha).restart();
+        };
+        app.canvas.addEventListener("pointerenter", pauseAnimation);
+        app.canvas.addEventListener("pointerleave", resumeAnimation);
+      }
       renderPixiFromD3();
       animate();
 
