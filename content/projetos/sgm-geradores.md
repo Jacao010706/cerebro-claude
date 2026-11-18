@@ -1,5 +1,5 @@
 ---
-tags: [sgm]
+tags: [sgm, projetos]
 cor: "#f1c40f"
 emoji: 🟡
 tipo: projeto

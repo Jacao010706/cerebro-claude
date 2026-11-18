@@ -1,3 +1,7 @@
+---
+tags: [sgm, receitas]
+---
+
 # Diagnóstico — o Realtime está funcionando?
 
 Meça antes de supor. Um dia inteiro já se perdeu com hipóteses

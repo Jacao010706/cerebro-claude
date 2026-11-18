@@ -1,3 +1,7 @@
+---
+tags: [sgm, receitas]
+---
+
 # Diagnóstico — de onde vem esse 404?
 
 ## As rotas `/api/v1/*` são proxies

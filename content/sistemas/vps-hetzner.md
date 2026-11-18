@@ -1,3 +1,7 @@
+---
+tags: [infra, sistemas]
+---
+
 # VPS Hetzner
 
 Servidor Ubuntu (`ubuntu-4gb-nbg1-1`, 4 GB, Alemanha/Nuremberg).

@@ -1,3 +1,7 @@
+---
+tags: [sgm, sistemas]
+---
+
 # Estações, códigos e endereços
 
 25 GGDs. Faixa `10.80.0.1` a `10.80.0.25`. `slave_id` de 1 a 25.

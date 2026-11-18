@@ -1,5 +1,5 @@
 ---
-tags: [sgm]
+tags: [sgm, projetos]
 tipo: projeto
 status: ativo
 ---

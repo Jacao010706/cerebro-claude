@@ -1,3 +1,7 @@
+---
+tags: [sgm, armadilhas]
+---
+
 # PowerShell corrompe acentos
 
 ## Sintoma

@@ -1,3 +1,7 @@
+---
+tags: [sgm, armadilhas]
+---
+
 # Supabase Realtime — a chave precisa ser JWT
 
 ## Sintoma

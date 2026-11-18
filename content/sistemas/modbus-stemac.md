@@ -1,3 +1,7 @@
+---
+tags: [sgm, sistemas]
+---
+
 # Modbus — STEMAC ST2160
 
 Decodificado a partir do manual `MAN_670.060.0140_V100R03`.

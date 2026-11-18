@@ -1,3 +1,7 @@
+---
+tags: [sofae, armadilhas]
+---
+
 # Deploy da web não muda nada (service worker)
 
 ## Sintoma

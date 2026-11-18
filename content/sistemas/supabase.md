@@ -1,3 +1,7 @@
+---
+tags: [sgm, sistemas]
+---
+
 # Supabase
 
 Projeto `yzfmcbstbkglrmbilhbz`. Região **us-west-2** (não é São Paulo).

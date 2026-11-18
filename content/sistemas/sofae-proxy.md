@@ -1,3 +1,7 @@
+---
+tags: [sofae, sistemas]
+---
+
 # sofae-proxy (proxy de streams do web app)
 
 Criado em 13/11/2026 para o web app do [[sofae]] tocar canais ao vivo.

@@ -1,5 +1,5 @@
 ---
-tags: [simanplay]
+tags: [simanplay, projetos]
 cor: "#3498db"
 emoji: 🔵
 tipo: projeto

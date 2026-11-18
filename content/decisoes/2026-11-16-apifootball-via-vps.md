@@ -1,3 +1,7 @@
+---
+tags: [simanplay, decisoes]
+---
+
 # 2026-11-16 — API-Football pelo IP do VPS
 
 ## Decisão

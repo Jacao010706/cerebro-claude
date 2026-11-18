@@ -1,4 +1,5 @@
 ---
+tags: [indice]
 title: CEREBRO CLAUDE
 ---
 
@@ -16,3 +17,10 @@ Bem-vindo ao ecossistema de projetos de Jacques Estevan Siman.
 - [[simanplay-iptv-admin-panel]] 🔵
 - [[simanplay-iptv-backend]] 🟣
 - [[sofae]] 🛋️
+
+## Legenda do gráfico
+- 🔴 vermelho — SGM / Trensurb
+- 🟢 verde — SimanPlay
+- 🟠 laranja — Sofae
+- 🔵 azul — infraestrutura (VPS, ferramentas)
+- 🟣 roxo — índices

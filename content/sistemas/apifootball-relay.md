@@ -1,3 +1,7 @@
+---
+tags: [simanplay, sistemas]
+---
+
 # apifootball-relay (aba Jogos)
 
 Criado em 16/11/2026. Faz o backend do SimanPlay chamar a API-Football

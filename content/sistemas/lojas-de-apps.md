@@ -1,3 +1,7 @@
+---
+tags: [sofae, sistemas]
+---
+
 # Lojas de apps — contas e estado
 
 ## Google Play

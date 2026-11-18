@@ -1,3 +1,7 @@
+---
+tags: [indice]
+---
+
 # Instruções para o Claude
 
 Este é o cofre de conhecimento do Jacques. Você tem permissão para ler,

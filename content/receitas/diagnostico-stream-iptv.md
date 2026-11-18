@@ -1,3 +1,7 @@
+---
+tags: [sofae, receitas]
+---
+
 # Canal / filme não toca — é o app ou é a lista?
 
 Ordem que resolveu os casos de 13 a 16/11:

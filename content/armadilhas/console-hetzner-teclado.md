@@ -1,3 +1,7 @@
+---
+tags: [infra, armadilhas]
+---
+
 # Console web da Hetzner quebra comandos colados
 
 ## Sintoma

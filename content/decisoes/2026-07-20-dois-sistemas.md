@@ -1,3 +1,7 @@
+---
+tags: [sgm, decisoes]
+---
+
 # 2026-07-20 — Separar em dois sistemas
 
 ## Decisão

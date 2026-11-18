@@ -1,3 +1,7 @@
+---
+tags: [infra, armadilhas]
+---
+
 # Claude Code diz "Credit balance too low"
 
 ## Sintoma

@@ -1,3 +1,7 @@
+---
+tags: [sgm, sistemas]
+---
+
 # Modbus — DSE (protocolo Gencomm)
 
 ## Registradores

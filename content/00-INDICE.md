@@ -1,3 +1,7 @@
+---
+tags: [indice]
+---
+
 # Índice
 
 Porta de entrada do cofre. Comece por aqui.

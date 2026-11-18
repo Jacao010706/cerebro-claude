@@ -1,3 +1,7 @@
+---
+tags: [sofae, decisoes]
+---
+
 # 2026-11-14 — Não burlar o bloqueio do provedor IPTV
 
 ## Decisão

@@ -1,3 +1,7 @@
+---
+tags: [simanplay, decisoes]
+---
+
 # 2026-11-15 — Aba Jogos sem pagar API
 
 ## Decisão

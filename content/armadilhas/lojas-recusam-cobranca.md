@@ -1,3 +1,7 @@
+---
+tags: [sofae, armadilhas]
+---
+
 # Loja recusa o app (cobrança, dados, revisor)
 
 ## Amazon: "Not compliant" — Monetization Policy

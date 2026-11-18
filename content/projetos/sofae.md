@@ -1,5 +1,5 @@
 ---
-tags: [simanplay, sofae]
+tags: [sofae, projetos, simanplay]
 cor: "#FF8A1A"
 emoji: 🛋️
 tipo: projeto

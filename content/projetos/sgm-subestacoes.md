@@ -1,3 +1,7 @@
+---
+tags: [sgm, projetos]
+---
+
 # SGM Subestações — fase futura
 
 Não é o projeto em que estamos trabalhando. O foco atual é

@@ -1,3 +1,7 @@
+---
+tags: [sofae, decisoes]
+---
+
 # 2026-11-16 — Sofae nas lojas: grátis, só player
 
 ## Decisão

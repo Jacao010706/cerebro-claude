@@ -1,6 +1,6 @@
 ---
 title: SimanPlay IPTV WhatsApp Bot
-tags: [simanplay]
+tags: [simanplay, projetos]
 ---
 
 # SimanPlay IPTV WhatsApp Bot

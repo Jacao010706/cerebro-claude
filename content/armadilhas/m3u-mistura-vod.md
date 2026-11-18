@@ -1,3 +1,7 @@
+---
+tags: [sofae, armadilhas]
+---
+
 # Ao Vivo cheio de pastas de filmes ("FILMES: GUERRA" etc.)
 
 ## Sintoma

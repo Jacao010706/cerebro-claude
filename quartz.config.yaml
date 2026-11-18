@@ -139,6 +139,9 @@ plugins:
     enabled: true
     options:
       localGraph:
+        showTags: false
+        linkDistance: 40
+        repelForce: 0.8
         nodeColors:
           projetos/sgm-ferroviario: "#e74c3c"
           projetos/sgm-geradores-trensurb: "#e67e22"
@@ -147,10 +150,21 @@ plugins:
           projetos/simanplay-iptv-admin-panel: "#3498db"
           projetos/simanplay-iptv-backend: "#9b59b6"
           projetos/simanplay-iptv-whatsapp: "#1abc9c"
+          projetos/sofae: "#FF8A1A"
         tagColors:
           sgm: "#e74c3c"
           simanplay: "#2ecc71"
+          sofae: "#FF8A1A"
+          infra: "#3498db"
+          indice: "#9b59b6"
       globalGraph:
+        showTags: false
+        enableRadial: false
+        repelForce: 1.4
+        centerForce: 0.35
+        linkDistance: 55
+        scale: 1
+        fontSize: 0.7
         nodeColors:
           projetos/sgm-ferroviario: "#e74c3c"
           projetos/sgm-geradores-trensurb: "#e67e22"
@@ -159,9 +173,13 @@ plugins:
           projetos/simanplay-iptv-admin-panel: "#3498db"
           projetos/simanplay-iptv-backend: "#9b59b6"
           projetos/simanplay-iptv-whatsapp: "#1abc9c"
+          projetos/sofae: "#FF8A1A"
         tagColors:
           sgm: "#e74c3c"
           simanplay: "#2ecc71"
+          sofae: "#FF8A1A"
+          infra: "#3498db"
+          indice: "#9b59b6"
     layout:
       position: right
       priority: 10

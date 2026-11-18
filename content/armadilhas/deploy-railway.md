@@ -1,3 +1,7 @@
+---
+tags: [sgm, armadilhas]
+---
+
 # Deploy no Railway — três armadilhas
 
 ## 1. `NEXT_PUBLIC_*` é embutida no BUILD

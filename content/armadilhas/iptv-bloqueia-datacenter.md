@@ -1,3 +1,7 @@
+---
+tags: [sofae, armadilhas]
+---
+
 # Canal ao vivo não abre no navegador (401/403 no proxy)
 
 ## Sintoma
