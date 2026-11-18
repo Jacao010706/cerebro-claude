@@ -15,3 +15,4 @@ Bem-vindo ao ecossistema de projetos de Jacques Estevan Siman.
 - [[simanplay-iptv]] 🟢
 - [[simanplay-iptv-admin-panel]] 🔵
 - [[simanplay-iptv-backend]] 🟣
+- [[sofae]] 🛋️
