@@ -12,7 +12,7 @@ Validado ao vivo no GMG-ANCHIETA (10.80.0.6). Login confirmado nas
 | `4x0001` bit 3 | Reconhece alarmes |
 | `4x0001` bit 4 | Modo remoto |
 | `4x0001` bit 12 | Parada remota |
-| `4x0003` / `4x0004` / `4x0005` | Login nível 5: escrever `0`, `0`, `4567` |
+| `4x0003` / `4x0004` / `4x0005` | Login nível 5: escrever `0`, `0` e a senha nível 5 (ver gerenciador de senhas — nunca aqui) |
 | `FC04 3x1000` (end. 999) | Verifica login — bits 0 e 1 devem estar zerados |
 | `IR[62]` | `is_running` se maior que zero |
 
