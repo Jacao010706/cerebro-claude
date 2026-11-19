@@ -81,7 +81,7 @@ comandos.
 
 ### Sofae / SimanPlay (nov/2026)
 - [ ] Revisão Google Play (enviado 18/11) e Amazon (enviado 17/11)
-- [ ] API-Football suspensa — falar com atendente humano (seg–sex 4h–13h)
+- [x] API-Football: conta nova ativa, aba Jogos funcionando (19/11)
 - [ ] Trocar o botão "Baixar o app" da web pelos links das lojas
 - [ ] Microsoft Store para o Sofae Windows
 - [ ] Status de comerciante no Play Console (até fev/2027)
@@ -101,3 +101,4 @@ código mas nunca foram documentados aqui. Mapear conforme forem tocados.
 - [[diario/2026-11-16]] — plano B dos jogos; relay API-Football; branch sofae-loja
 - [[diario/2026-11-17]] — Amazon: 1003 enviado
 - [[diario/2026-11-18]] — Google Play: enviado para revisão
+- [[diario/2026-11-19]] — aba Jogos voltou (conta nova da API-Football)

@@ -45,11 +45,32 @@ recomendada por eles é IP dedicado. Ver [[decisoes/2026-11-16-apifootball-via-v
 
 Cache: 30 min (hoje) / 6 h (outras datas).
 
-## Estado em 18/11
+## Estado em 19/11 — funcionando
 
-- Repasse funcionando: os pedidos do backend chegam ao VPS.
-- Conta **ainda suspensa**. Atendimento humano do chat da API-Football:
-  seg–sex, 7h–16h UTC (**4h–13h de Brasília**), botão "Chat with an agent".
+- A conta antiga continua suspensa. **Conta nova** (grátis, 100 pedidos/dia)
+  criada em 19/11 com outro e-mail; a chave nova está no Railway
+  (`API_FOOTBALL_KEY`, serviço `web`) — nunca aqui.
+- Testada pelo VPS (`/status` → `"errors":[]`, plano Free ativo) e pelo
+  backend: `/sports/fixtures` voltou com jogos e escudos.
+- **Não usar a conta antiga em lugar nenhum**: todos os pedidos saem só pelo
+  IP do VPS.
+- Uso diário: conferir em dashboard.api-football.com. O cache do backend
+  (30 min hoje / 6 h outras datas) segura o consumo.
+- O campo `emissoras` vem vazio: a API-Football não informa o canal.
+
+### Testes rápidos (terminal do VPS)
+
+```bash
+# conta/chave (a chave não aparece na tela)
+read -s K; curl -s -H "x-apisports-key: $K" https://v3.football.api-sports.io/status; echo; unset K
+# últimos pedidos que passaram pelo repasse
+journalctl -u apifootball-relay -n 5 --no-pager
+```
+
+## Histórico (18/11)
+
+- Repasse funcionando, mas a conta antiga seguia suspensa.
+- Atendimento humano do chat da API-Football: seg–sex, 7h–16h UTC
+  (4h–13h de Brasília), botão "Chat with an agent".
 - "Allowed IPs" no painel deles só funciona em plano pago.
-- Quando reativarem, o placar volta sem mexer em código.
 - Alternativa paga: plano Pro (~US$ 19/mês, 7.500 pedidos/dia).
