@@ -56,6 +56,13 @@ nem no painel/backend** sem autorização explícita. Tudo em branch própria.
 - Testado: canais, filmes e séries tocam direto do PC (como o Zuxo).
 - Versão visível no app: "Sofae v1.0.0+N".
 - Aviso de nova versão lê `https://app.sofae.com.br/windows-version.json`.
+- **Instalador público (desde 19/11):** cada push na `sofae-windows` gera `Sofae-Setup.exe`
+  (Inno Setup, por usuário, sem admin) e republica a release fixa `sofae-windows`
+  (`--latest=false`). Link que não muda:
+  `https://github.com/Jacao010706/simanplay-iptv-app/releases/download/sofae-windows/Sofae-Setup.exe`
+- Sem assinatura digital: Edge/SmartScreen avisa ("normalmente não é baixado"). Cliente usa
+  a setinha ao lado de "Excluir" → **Manter mesmo assim**; depois "Mais informações" →
+  **Executar assim mesmo**. Some com Microsoft Store ou certificado de código.
 
 ### Melhorias feitas na `sofae-windows` (valem para todas as plataformas)
 
@@ -93,7 +100,9 @@ Ver [[sistemas/lojas-de-apps]].
 
 - [ ] Resultado da revisão: Google Play (enviado 18/11) e Amazon (enviado 17/11)
 - [ ] Depois de aprovado: trocar `APP_DOWNLOAD_URL` da web pelos links das lojas
-- [ ] Página `sofae.com.br` não tem onde baixar o app (é do painel SimanPlay — pasta protegida)
+- [x] Página de download do Sofae (19/11): `simanplay-iptv-admin-panel.vercel.app/baixar.html?brand=Sofae&cor=ff8a1a`
+  → Android/Fire TV = APK white-label (`/api/dl/8794079`), Windows = `Sofae-Setup.exe`.
+  Tabela `MARCAS` no `public/baixar.html` (painel, merge `049e820` autorizado). Outras marcas: links de sempre.
 - [ ] Microsoft Store (MSIX assinado) para a versão Windows
 - [ ] Declarar status de comerciante no Play Console (prazo: fev/2027)
 - [ ] Separar o `applicationId` do APK direto (hoje igual ao da loja) — ver [[decisoes/2026-11-16-sofae-lojas-gratuito]]
