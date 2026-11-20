@@ -102,3 +102,4 @@ código mas nunca foram documentados aqui. Mapear conforme forem tocados.
 - [[diario/2026-11-17]] — Amazon: 1003 enviado
 - [[diario/2026-11-18]] — Google Play: enviado para revisão
 - [[diario/2026-11-19]] — aba Jogos voltou (conta nova da API-Football)
+- [[diario/2026-11-20]] — Amazon: categoria e layout de TV corrigidos, reenviado
