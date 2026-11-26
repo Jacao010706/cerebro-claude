@@ -85,6 +85,7 @@ comandos.
 - [ ] Google Play: revisão do Android TV + AAB 1009; depois enviar o AAB 1011 e trocar o quadro Android TV do site
 - [x] Amazon Appstore: versão 1011 no ar (25/11) — https://www.amazon.com/dp/B0HRJ7X68T
 - [x] TVs Samsung e LG pelo Media Station X (26/11) — ver [[decisoes/2026-11-25-sofae-tv-via-msx]]
+- [ ] LG Content Store: Sofae 1.1.0 em QA desde 19/10; pergunta aberta no 1:1 Q&A em 26/11 (conta de teste `lgteste` vence 05/01/2027)
 - [ ] Media Station X: enviar o e-mail ao autor e registrar a resposta sobre uso comercial
 - [ ] Vega OS parado: instalar Ubuntu no HD externo de 500 GB do outro PC para rodar o simulador
 - [ ] Separar login de admin e de revendedor no mesmo navegador

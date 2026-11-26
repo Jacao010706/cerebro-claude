@@ -42,6 +42,17 @@ tags: [sofae, sistemas]
 - **1011** enviada 24/11, **aprovada 25/11**, no ar: https://www.amazon.com/dp/B0HRJ7X68T
   (link usado no botão "Amazon Appstore" do site).
 
+## LG Content Store (LG Seller Lounge)
+
+- Conta `akitemtech@gmail.com` (seller.lgappstv.com).
+- PrimeTV 1.0.100 enviado 01/10; a nosso pedido, recusado no Pretest em 12/10.
+- **Sofae 1.1.0** (`com.sofae.app`) enviado **19/10** → "QA Processing", sem nenhum QA ("Last QA: -").
+  Em 26/11 aberta pergunta no 1:1 Q&A (*App QA Schedule Check/Hold Request*). Resposta chega por e-mail.
+- Com o app em QA não dá para abrir nem editar (botão Edit pode cancelar o envio).
+- **Conta de teste da LG:** cliente `lgteste` no painel de **admin** (não na revenda sofae), playlist
+  "LG teste (conteúdo livre)" → `.../demo-xtream`; vence 05/01/2027. **Não trocar a senha** (a LG tem a de outubro).
+  Detalhes em `scripts/lgteste/README.md` do painel.
+
 ## Smart TVs Samsung e LG
 Sem loja própria: pelo **Media Station X** — ver [[decisoes/2026-11-25-sofae-tv-via-msx]].
 
