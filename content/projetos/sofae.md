@@ -92,13 +92,38 @@ nem no painel/backend** sem autorização explícita. Tudo em branch própria.
   (`APP_DOWNLOAD_URL` em `js/app.js`, hoje aponta para `sofae.com.br`).
 - Logs do player só com `localStorage.sofaeDebug = '1'`.
 
+## TV Samsung e LG pelo Media Station X (26/11/2026)
+
+O Sofae roda nas Smart TVs **sem app próprio na loja**: o cliente instala o **Media Station X**
+(MSX, app "white label" gratuito, lojas Samsung e LG), vai em *Settings → Start Parameter → Setup*,
+ativa o **cadeado** (HTTPS) e digita `sofae.com.br`. Mesmo caminho usado pelo Zuxo (`zplay.top`).
+
+- **Arquivos** (repo `sofae-site`, pasta `msx/`): `start.json` → `sofae.html` (plugin de interação,
+  código ES5 por causa de TV antiga); `testes.json` e `menu.json` são da prova de conceito.
+  O MSX busca `https://<servidor>/msx/start.json`. `vercel.json` libera CORS em `/msx/*`.
+- **Licença:** usa o mesmo sistema do app Android (`/license/register` com `platform: msx`,
+  **7 dias grátis**, depois renovação). Sem mudança no backend.
+- **Lista:** pelo celular em `ativar.sofae.com.br` (código + chave mostrados na TV) **ou** pelo
+  **teclado na tela** (Servidor/Usuário/Senha → `POST /license/device/playlists`, fica na conta do aparelho).
+- **Vídeo e catálogo vêm direto do provedor** (IP da casa do cliente); se o provedor falhar,
+  tenta `/license/device/xtream` no servidor. Ao vivo: HLS ou TS (troca em *Minha conta*).
+- **Telas:** Início, TV ao vivo, Filmes, Séries (temporadas/episódios), Minha conta. Fundo escuro
+  `img/tv-fundo.jpg` e logo do Sofae.
+- **Testado** na LG LJ600B (2017, webOS 3.5): canal ao vivo, filme e série tocaram.
+  Vídeos de teste estrangeiros (MP4 e ao vivo da Akamai) falharam no player dessa TV — não representam as listas IPTV.
+- **Site:** blocos Samsung/LG em "Disponível em" e cartão "TV Samsung e LG" em "Como instalar".
+- **Pendente:** confirmar com o autor do MSX se o uso comercial é permitido; reinstalar o MSX pode
+  gerar novo período de teste quando a TV não informa um identificador fixo.
+
 ## Lojas
 
 Ver [[sistemas/lojas-de-apps]].
 
 ## Pendências
 
-- [ ] Resultado da revisão: Google Play (enviado 18/11) e Amazon (enviado 17/11)
+- [x] Amazon Appstore no ar (versão 1011, aprovada 25/11): https://www.amazon.com/dp/B0HRJ7X68T
+- [ ] Google Play: revisão do Android TV + AAB 1009; depois enviar o 1011
+- [ ] Media Station X: resposta do autor sobre uso comercial
 - [ ] Depois de aprovado: trocar `APP_DOWNLOAD_URL` da web pelos links das lojas
 - [x] Página de download do Sofae (19/11): `simanplay-iptv-admin-panel.vercel.app/baixar.html?brand=Sofae&cor=ff8a1a`
   → Android/Fire TV = APK white-label (`/api/dl/8794079`), Windows = `Sofae-Setup.exe`.

@@ -104,3 +104,4 @@ código mas nunca foram documentados aqui. Mapear conforme forem tocados.
 - [[diario/2026-11-19]] — aba Jogos voltou (conta nova da API-Football)
 - [[diario/2026-11-20]] — Amazon: categoria e layout de TV corrigidos, reenviado
 - [[diario/2026-11-21]] — Android TV na Play, banner WhatsApp, Vega fase 1
+- [[diario/2026-11-26]] — Sofae nas TVs Samsung/LG (Media Station X), Amazon 1011 no ar
