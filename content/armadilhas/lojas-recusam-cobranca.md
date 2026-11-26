@@ -53,3 +53,30 @@ pagos. Marcar "nenhuma parte é restrita" e apontar o modo demonstração.
 
 O release novo veio com **1** Fire TV marcado. Editar e marcar todos; tirar
 **Automotive** (vídeo em carro). Release notes é **obrigatório**.
+
+
+## Amazon: recusa por marca registrada e capturas (1009, 22/11/2026)
+
+### Sintoma
+App Status → **Pending Action** → Details: problema de **trademark** e de
+**screenshots** na ficha.
+
+### Causa
+- Imagem promocional/ficha com o nome **"Fire TV"** — é marca da Amazon, não pode
+  aparecer nos materiais do app.
+- Capturas que não mostravam a **interface real do app na TV**.
+
+### Solução
+- Promocional nova sem "Fire TV" (`sofae-promo-1024x500-v2.png`).
+- Capturas reais de TV, geradas por teste de widget (`test/capturas_tv_test.dart`).
+- Junto: correção do foco que escurecia a tela na TV → versão **1011**.
+- 1011 enviada 24/11, **aprovada 25/11** e no ar: https://www.amazon.com/dp/B0HRJ7X68T
+
+## Amazon: dispositivos trocam para "Automotive" ao substituir o APK
+
+### Sintoma
+Depois de enviar um APK novo, a lista de aparelhos aparece marcada só como Automotive.
+
+### Solução
+Apagar o APK antigo na seção de APKs e **marcar de novo** Fire TV e Fire Tablet
+(desmarcar Automotive) antes de enviar.

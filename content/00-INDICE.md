@@ -41,7 +41,7 @@ comandos.
 - [[armadilhas/console-hetzner-teclado]] — comando colado sai trocado
 - [[armadilhas/service-worker-cache]] — deploy da web não muda nada
 - [[armadilhas/claude-code-api-key]] — "Credit balance too low"
-- [[armadilhas/lojas-recusam-cobranca]] — Amazon/Play recusam o app
+- [[armadilhas/lojas-recusam-cobranca]] — Amazon/Play recusam o app (cobrança, "Fire TV", capturas)
 - [[armadilhas/m3u-mistura-vod]] — pastas de filmes no Ao Vivo
 
 ## Receitas de diagnóstico
@@ -58,6 +58,7 @@ comandos.
 - [[decisoes/2026-11-15-jogos-plano-b]] — jogos a partir da lista, sem pagar
 - [[decisoes/2026-11-16-sofae-lojas-gratuito]] — Sofae nas lojas grátis, só player
 - [[decisoes/2026-11-16-apifootball-via-vps]] — API-Football pelo IP do VPS
+- [[decisoes/2026-11-25-sofae-tv-via-msx]] — Sofae nas TVs Samsung/LG pelo Media Station X
 
 ## Pendências abertas
 
@@ -80,11 +81,17 @@ comandos.
 - [ ] Listar só geradores que já têm inspeções
 
 ### Sofae / SimanPlay (nov/2026)
-- [ ] Revisão Google Play (enviado 18/11) e Amazon (enviado 17/11)
+- [x] Google Play: Sofae publicado (celular); status de comerciante declarado
+- [ ] Google Play: revisão do Android TV + AAB 1009; depois enviar o AAB 1011 e trocar o quadro Android TV do site
+- [x] Amazon Appstore: versão 1011 no ar (25/11) — https://www.amazon.com/dp/B0HRJ7X68T
+- [x] TVs Samsung e LG pelo Media Station X (26/11) — ver [[decisoes/2026-11-25-sofae-tv-via-msx]]
+- [ ] Media Station X: enviar o e-mail ao autor e registrar a resposta sobre uso comercial
+- [ ] Vega OS parado: instalar Ubuntu no HD externo de 500 GB do outro PC para rodar o simulador
+- [ ] Separar login de admin e de revendedor no mesmo navegador
+- [ ] Vídeos dos tutoriais do site
 - [x] API-Football: conta nova ativa, aba Jogos funcionando (19/11)
 - [ ] Trocar o botão "Baixar o app" da web pelos links das lojas
 - [ ] Microsoft Store para o Sofae Windows
-- [ ] Status de comerciante no Play Console (até fev/2027)
 - [ ] Apagar o repositório público `sofae-tmp`
 - [ ] Levar as melhorias da `sofae-windows` para a `main`
 

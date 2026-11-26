@@ -124,12 +124,13 @@ Ver [[sistemas/lojas-de-apps]].
 - [x] Amazon Appstore no ar (versão 1011, aprovada 25/11): https://www.amazon.com/dp/B0HRJ7X68T
 - [ ] Google Play: revisão do Android TV + AAB 1009; depois enviar o 1011
 - [ ] Media Station X: resposta do autor sobre uso comercial
+- [ ] Vega OS (Fire TV Stick 4K Select): parado; plano é Ubuntu no HD externo de 500 GB do outro PC para rodar o simulador do Vega SDK
 - [ ] Depois de aprovado: trocar `APP_DOWNLOAD_URL` da web pelos links das lojas
 - [x] Página de download do Sofae (19/11): `simanplay-iptv-admin-panel.vercel.app/baixar.html?brand=Sofae&cor=ff8a1a`
   → Android/Fire TV = APK white-label (`/api/dl/8794079`), Windows = `Sofae-Setup.exe`.
   Tabela `MARCAS` no `public/baixar.html` (painel, merge `049e820` autorizado). Outras marcas: links de sempre.
 - [ ] Microsoft Store (MSIX assinado) para a versão Windows
-- [ ] Declarar status de comerciante no Play Console (prazo: fev/2027)
+- [x] Status de comerciante declarado no Play Console
 - [ ] Separar o `applicationId` do APK direto (hoje igual ao da loja) — ver [[decisoes/2026-11-16-sofae-lojas-gratuito]]
 - [ ] Repositório público `Jacao010706/sofae-tmp` (criado no dia 14 para passar arquivo) — apagar
 - [ ] Mesclar as melhorias da `sofae-windows` na `main` (com teste por marca)

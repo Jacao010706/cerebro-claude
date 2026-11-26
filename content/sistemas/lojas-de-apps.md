@@ -13,7 +13,10 @@ tags: [sofae, sistemas]
 - 18/11: enviado para revisão — produção **1003 (1.1.0)** para o **Brasil**,
   teste fechado também trocado para a 1003, ficha nova, política nova,
   Segurança dos dados refeita, "Detalhes do login: Não".
-- Pendente: declarar **status de comerciante** até fev/2027.
+- **Publicado** em produção (celular). Status de comerciante **declarado**.
+- 21/11: formato **Android TV** ativado (banner 1280x720 + capturas de TV) e
+  **AAB 1009** enviado; aguardando revisão. Depois: enviar o **AAB 1011**.
+- Busca por "sofae" na Play Store ainda não mostrava o app (app novo, indexação demora).
 - Caminhos no console novo:
   - Versões: foguete → Testar e lançar → Produção
   - Ficha: Aumentar número de usuários → Páginas de detalhes do app → Editar página padrão
@@ -33,6 +36,14 @@ tags: [sofae, sistemas]
 - 17/11: enviado o **1003** (Fire TV 93 modelos + Fire Tablet 12, sem
   Automotive), DRM: No, Free, ficha/capturas/promocional novas, nota para o
   revisor, questionário de privacidade só com "User IDs".
+
+- 1005 no ar; 1009 **recusada** em 22/11 (marca "Fire TV" + capturas) — ver
+  [[armadilhas/lojas-recusam-cobranca]].
+- **1011** enviada 24/11, **aprovada 25/11**, no ar: https://www.amazon.com/dp/B0HRJ7X68T
+  (link usado no botão "Amazon Appstore" do site).
+
+## Smart TVs Samsung e LG
+Sem loja própria: pelo **Media Station X** — ver [[decisoes/2026-11-25-sofae-tv-via-msx]].
 
 ## Textos e imagens prontos (17/11)
 
